@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2852 第一保 - Claude Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- 返回連結 -->
+        <a href="../index.html" class="text-blue-500 hover:underline mb-4 inline-block">← 返回 Dashboard</a>
+
+        <!-- 標題區 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <span class="text-xs bg-gray-200 px-2 py-1 rounded">台股</span>
+                    
+                    <h1 class="text-3xl font-bold mt-2">2852</h1>
+                    <p class="text-gray-600 text-xl">第一保</p>
+                    <p class="text-sm text-gray-500">The First Insurance Co., Ltd.</p>
+                    <p class="text-sm text-gray-500 mt-1">Financial Services · Insurance - Property & Casualty</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-3xl font-bold">$26.60</p>
+                    <p class="text-red-500 text-xl">-0.20 (-0.75%)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 價格走勢圖 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">價格走勢 (近3個月)</h2>
+            <div id="price-chart" style="height: 300px;"></div>
+        </div>
+
+        <!-- 關鍵數據 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">關鍵數據</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">市值</p>
+                    <p class="text-lg font-semibold">8.01B</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">本益比 (P/E)</p>
+                    <p class="text-lg font-semibold">9.11</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">每股盈餘 (EPS)</p>
+                    <p class="text-lg font-semibold">$2.92</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">殖利率</p>
+                    <p class="text-lg font-semibold">6.19%</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最高</p>
+                    <p class="text-lg font-semibold">$27.25</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最低</p>
+                    <p class="text-lg font-semibold">$24.40</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">成交量</p>
+                    <p class="text-lg font-semibold">366.8K</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">平均成交量</p>
+                    <p class="text-lg font-semibold">528.5K</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新新聞 -->
+        <div class="bg-white rounded-lg shadow mb-6">
+            <h2 class="text-xl font-semibold p-6 pb-2">最新新聞</h2>
+            <div class="divide-y">
+                <p class="text-gray-500 p-4">暫無新聞</p>
+            </div>
+        </div>
+
+        <!-- 公司簡介 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">公司簡介</h2>
+            <p class="text-gray-700 text-sm leading-relaxed">The First Insurance Co., Ltd. engages in the provision of a range of insurance products and related services in Taiwan. It offers insurance products, including residential and commercial fire; inland and cargo transportation; hull; fishing boat insurance; aviation; general personal car and general commercial auto property damage insurance; liability insurance products comprising general commercial auto property damage, general personal car, general commercial automobile, compulsory car, compulso</p>
+            <a href="https://www.firstins.com.tw" target="_blank" class="text-blue-500 hover:underline text-sm mt-2 inline-block">官方網站 →</a>
+        </div>
+
+        <!-- 更新時間 -->
+        <p class="text-center text-gray-400 text-sm">更新時間: 2026-07-28 14:18</p>
+
+    </div>
+
+    <script>
+        var trace = {
+            x: ['2026-05-05', '2026-05-06', '2026-05-07', '2026-05-08', '2026-05-11', '2026-05-12', '2026-05-13', '2026-05-14', '2026-05-15', '2026-05-18', '2026-05-19', '2026-05-20', '2026-05-21', '2026-05-22', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29', '2026-06-01', '2026-06-02', '2026-06-03', '2026-06-04', '2026-06-05', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12', '2026-06-15', '2026-06-16', '2026-06-17', '2026-06-18', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-13', '2026-07-14', '2026-07-15', '2026-07-16', '2026-07-17', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-27', '2026-07-28'],
+            y: [24.45, 24.5, 24.54, 24.59, 24.54, 24.64, 24.73, 24.92, 24.87, 25.25, 25.39, 25.48, 25.44, 25.34, 25.3, 25.16, 25.25, 25.3, 25.34, 25.48, 25.67, 26.24, 26.19, 26.19, 25.63, 26.14, 26.05, 25.91, 26.05, 26.14, 26.19, 26.55, 26.35, 26.3, 26.6, 26.3, 26.6, 26.3, 26.5, 26.6, 26.5, 26.65, 26.85, 27.05, 26.6, 26.75, 26.8, 26.8, 27.0, 26.75, 27.0, 26.9, 26.5, 26.65, 26.75, 26.6, 26.55, 26.65, 26.8, 26.6],
+            type: 'scatter',
+            mode: 'lines',
+            fill: 'tozeroy',
+            line: {color: '#3b82f6', width: 2},
+            fillcolor: 'rgba(59, 130, 246, 0.1)'
+        };
+
+        var layout = {
+            margin: {l: 50, r: 20, t: 20, b: 40},
+            xaxis: {showgrid: false},
+            yaxis: {showgrid: true, gridcolor: '#eee'},
+            hovermode: 'x unified'
+        };
+
+        Plotly.newPlot('price-chart', [trace], layout, {responsive: true});
+    </script>
+</body>
+</html>

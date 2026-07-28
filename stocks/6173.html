@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6173 信昌電 - Claude Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- 返回連結 -->
+        <a href="../index.html" class="text-blue-500 hover:underline mb-4 inline-block">← 返回 Dashboard</a>
+
+        <!-- 標題區 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <span class="text-xs bg-gray-200 px-2 py-1 rounded">台股</span>
+                    
+                    <h1 class="text-3xl font-bold mt-2">6173</h1>
+                    <p class="text-gray-600 text-xl">信昌電</p>
+                    <p class="text-sm text-gray-500">Prosperity Dielectrics Co., Ltd.</p>
+                    <p class="text-sm text-gray-500 mt-1">Technology · Electronic Components</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-3xl font-bold">$163.00</p>
+                    <p class="text-red-500 text-xl">-18.00 (-9.94%)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 價格走勢圖 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">價格走勢 (近3個月)</h2>
+            <div id="price-chart" style="height: 300px;"></div>
+        </div>
+
+        <!-- 關鍵數據 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">關鍵數據</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">市值</p>
+                    <p class="text-lg font-semibold">27.91B</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">本益比 (P/E)</p>
+                    <p class="text-lg font-semibold">50.00</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">每股盈餘 (EPS)</p>
+                    <p class="text-lg font-semibold">$3.26</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">殖利率</p>
+                    <p class="text-lg font-semibold">0.99%</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最高</p>
+                    <p class="text-lg font-semibold">$360.11</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最低</p>
+                    <p class="text-lg font-semibold">$77.49</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">成交量</p>
+                    <p class="text-lg font-semibold">283.0K</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">平均成交量</p>
+                    <p class="text-lg font-semibold">6.43M</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新新聞 -->
+        <div class="bg-white rounded-lg shadow mb-6">
+            <h2 class="text-xl font-semibold p-6 pb-2">最新新聞</h2>
+            <div class="divide-y">
+                <p class="text-gray-500 p-4">暫無新聞</p>
+            </div>
+        </div>
+
+        <!-- 公司簡介 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">公司簡介</h2>
+            <p class="text-gray-700 text-sm leading-relaxed">Prosperity Dielectrics Co., Ltd. manufactures, processes, and sells chip capacitors, chip resistors, dielectric ceramic powder, and magnetic components in Asia, the United States, and Europe. The company offers multilayer ceramic capacitors, such as safety certified capacitor, high and medium voltage capacitor, high capacitance capacitor, anti-bend capacitor, automotive capacitor, stacked capacitors, anti-arcing high-voltage capacitor, and automotive MLCC; chip resistors, which include current s</p>
+            <a href="https://www.pdc.com.tw" target="_blank" class="text-blue-500 hover:underline text-sm mt-2 inline-block">官方網站 →</a>
+        </div>
+
+        <!-- 更新時間 -->
+        <p class="text-center text-gray-400 text-sm">更新時間: 2026-07-28 14:18</p>
+
+    </div>
+
+    <script>
+        var trace = {
+            x: ['2026-05-05', '2026-05-06', '2026-05-07', '2026-05-08', '2026-05-11', '2026-05-12', '2026-05-13', '2026-05-14', '2026-05-15', '2026-05-18', '2026-05-19', '2026-05-20', '2026-05-21', '2026-05-22', '2026-05-25', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29', '2026-06-01', '2026-06-02', '2026-06-03', '2026-06-04', '2026-06-05', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12', '2026-06-15', '2026-06-16', '2026-06-17', '2026-06-18', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-13', '2026-07-14', '2026-07-15', '2026-07-16', '2026-07-17', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-27', '2026-07-28'],
+            y: [91.59, 100.33, 110.27, 121.2, 133.12, 146.03, 157.95, 170.87, 153.98, 164.91, 159.44, 158.45, 173.85, 191.23, 210.11, 222.52, 224.51, 218.05, 235.44, 235.44, 229.97, 228.98, 214.08, 222.03, 208.12, 228.48, 227.49, 249.84, 274.68, 302.0, 285.11, 298.52, 313.92, 303.49, 283.12, 302.99, 304.48, 274.18, 280.64, 308.45, 339.25, 316.9, 348.19, 313.42, 282.13, 271.2, 275.0, 275.0, 247.5, 239.0, 231.5, 215.5, 194.0, 175.0, 175.0, 178.0, 183.0, 165.0, 181.0, 163.0],
+            type: 'scatter',
+            mode: 'lines',
+            fill: 'tozeroy',
+            line: {color: '#3b82f6', width: 2},
+            fillcolor: 'rgba(59, 130, 246, 0.1)'
+        };
+
+        var layout = {
+            margin: {l: 50, r: 20, t: 20, b: 40},
+            xaxis: {showgrid: false},
+            yaxis: {showgrid: true, gridcolor: '#eee'},
+            hovermode: 'x unified'
+        };
+
+        Plotly.newPlot('price-chart', [trace], layout, {responsive: true});
+    </script>
+</body>
+</html>

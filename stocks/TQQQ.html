@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TQQQ ProShares UltraPro QQQ - Claude Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- 返回連結 -->
+        <a href="../index.html" class="text-blue-500 hover:underline mb-4 inline-block">← 返回 Dashboard</a>
+
+        <!-- 標題區 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <span class="text-xs bg-gray-200 px-2 py-1 rounded">ETF</span>
+                    
+                    <h1 class="text-3xl font-bold mt-2">TQQQ</h1>
+                    <p class="text-gray-600 text-xl">ProShares UltraPro QQQ</p>
+                    
+                    <p class="text-sm text-gray-500 mt-1"> · </p>
+                </div>
+                <div class="text-right">
+                    <p class="text-3xl font-bold">$63.40</p>
+                    <p class="text-red-500 text-xl">-0.60 (-0.94%)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 價格走勢圖 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">價格走勢 (近3個月)</h2>
+            <div id="price-chart" style="height: 300px;"></div>
+        </div>
+
+        <!-- 關鍵數據 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">關鍵數據</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">市值</p>
+                    <p class="text-lg font-semibold">0</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">本益比 (P/E)</p>
+                    <p class="text-lg font-semibold">32.50</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">每股盈餘 (EPS)</p>
+                    <p class="text-lg font-semibold">$0.00</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">殖利率</p>
+                    <p class="text-lg font-semibold">N/A</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最高</p>
+                    <p class="text-lg font-semibold">$87.89</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最低</p>
+                    <p class="text-lg font-semibold">$59.54</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">成交量</p>
+                    <p class="text-lg font-semibold">68.64M</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">平均成交量</p>
+                    <p class="text-lg font-semibold">71.16M</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新新聞 -->
+        <div class="bg-white rounded-lg shadow mb-6">
+            <h2 class="text-xl font-semibold p-6 pb-2">最新新聞</h2>
+            <div class="divide-y">
+                
+        <a href="http://www.etf.com/sections/podcasts/cash-chips-and-chaos-whats-really-driving-etf-flows-0?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Cash, Chips, and Chaos: What’s Really Driving ETF Flows</p>
+            <p class="text-xs text-gray-500 mt-1">etf.com · 07/27</p>
+        </a>
+        
+        <a href="http://www.etf.com/sections/podcasts/etf-zoo-leveraged-lunacy-surpasses-65b-gains?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">ETF Zoo: Leveraged Lunacy Surpasses $65B in Gains</p>
+            <p class="text-xs text-gray-500 mt-1">etf.com · 07/25</p>
+        </a>
+        
+        <a href="http://www.etf.com/sections/features/etfs-just-set-trading-volume-record?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">ETFs Just Set a Trading Volume Record</p>
+            <p class="text-xs text-gray-500 mt-1">etf.com · 07/22</p>
+        </a>
+        
+        <a href="http://www.etf.com/sections/news/leveraged-etfs-2026-how-they-work-best-funds-and-risks-you-cant-ignore?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Leveraged ETFs in 2026: How They Work, the Best Funds, and the Risks You Can't Ignore</p>
+            <p class="text-xs text-gray-500 mt-1">etf.com · 07/15</p>
+        </a>
+        
+        <a href="https://247wallst.com/investing/2026/07/13/an-absolute-casino-the-500-billion-leveraged-etf-craze-proving-buffett-right/" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">‘An Absolute Casino.’ The $500 Billion Leveraged ETF Craze Proving Buffett Right</p>
+            <p class="text-xs text-gray-500 mt-1">24/7 Wall St. · 07/13</p>
+        </a>
+        
+            </div>
+        </div>
+
+        <!-- 公司簡介 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">公司簡介</h2>
+            <p class="text-gray-700 text-sm leading-relaxed">The fund invests in financial instruments that ProShare Advisors believes, in combination, should produce daily returns consistent with the Daily Target. The index is designed to measure the performance of 100 of the largest Nasdaq-listed non-financial companies. Under normal circumstances, the fund will obtain leveraged exposure to at least 80% of its total assets in components of the index or in instruments with similar economic characteristics. The fund is non-diversified.</p>
+            
+        </div>
+
+        <!-- 更新時間 -->
+        <p class="text-center text-gray-400 text-sm">更新時間: 2026-07-28 14:18</p>
+
+    </div>
+
+    <script>
+        var trace = {
+            x: ['2026-04-30', '2026-05-01', '2026-05-04', '2026-05-05', '2026-05-06', '2026-05-07', '2026-05-08', '2026-05-11', '2026-05-12', '2026-05-13', '2026-05-14', '2026-05-15', '2026-05-18', '2026-05-19', '2026-05-20', '2026-05-21', '2026-05-22', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29', '2026-06-01', '2026-06-02', '2026-06-03', '2026-06-04', '2026-06-05', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12', '2026-06-15', '2026-06-16', '2026-06-17', '2026-06-18', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-13', '2026-07-14', '2026-07-15', '2026-07-16', '2026-07-17', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-27'],
+            y: [63.39, 65.15, 64.76, 67.24, 71.41, 71.18, 76.1, 76.78, 74.79, 77.06, 78.77, 75.17, 74.15, 72.76, 76.33, 76.77, 77.66, 81.76, 81.48, 83.49, 84.37, 85.84, 87.02, 86.36, 85.02, 72.88, 76.09, 73.55, 69.11, 75.84, 77.34, 84.4, 79.75, 77.36, 82.68, 82.39, 74.27, 73.3, 74.95, 71.83, 77.19, 81.0, 77.46, 73.35, 76.42, 72.23, 72.72, 76.34, 77.03, 72.64, 75.02, 74.44, 70.74, 67.53, 67.65, 71.37, 70.28, 66.3, 64.0, 63.4],
+            type: 'scatter',
+            mode: 'lines',
+            fill: 'tozeroy',
+            line: {color: '#3b82f6', width: 2},
+            fillcolor: 'rgba(59, 130, 246, 0.1)'
+        };
+
+        var layout = {
+            margin: {l: 50, r: 20, t: 20, b: 40},
+            xaxis: {showgrid: false},
+            yaxis: {showgrid: true, gridcolor: '#eee'},
+            hovermode: 'x unified'
+        };
+
+        Plotly.newPlot('price-chart', [trace], layout, {responsive: true});
+    </script>
+</body>
+</html>

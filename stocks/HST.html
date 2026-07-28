@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HST Host Hotels & Resorts, Inc. - Claude Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- 返回連結 -->
+        <a href="../index.html" class="text-blue-500 hover:underline mb-4 inline-block">← 返回 Dashboard</a>
+
+        <!-- 標題區 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <span class="text-xs bg-gray-200 px-2 py-1 rounded">美股</span>
+                    
+                    <h1 class="text-3xl font-bold mt-2">HST</h1>
+                    <p class="text-gray-600 text-xl">Host Hotels & Resorts, Inc.</p>
+                    
+                    <p class="text-sm text-gray-500 mt-1">Real Estate · REIT - Hotel & Motel</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-3xl font-bold">$24.97</p>
+                    <p class="text-green-500 text-xl">+0.47 (+1.92%)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 價格走勢圖 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">價格走勢 (近3個月)</h2>
+            <div id="price-chart" style="height: 300px;"></div>
+        </div>
+
+        <!-- 關鍵數據 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">關鍵數據</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">市值</p>
+                    <p class="text-lg font-semibold">17.32B</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">本益比 (P/E)</p>
+                    <p class="text-lg font-semibold">16.65</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">每股盈餘 (EPS)</p>
+                    <p class="text-lg font-semibold">$1.50</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">殖利率</p>
+                    <p class="text-lg font-semibold">3.27%</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最高</p>
+                    <p class="text-lg font-semibold">$25.01</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最低</p>
+                    <p class="text-lg font-semibold">$19.95</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">成交量</p>
+                    <p class="text-lg font-semibold">7.49M</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">平均成交量</p>
+                    <p class="text-lg font-semibold">9.15M</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新新聞 -->
+        <div class="bg-white rounded-lg shadow mb-6">
+            <h2 class="text-xl font-semibold p-6 pb-2">最新新聞</h2>
+            <div class="divide-y">
+                
+        <a href="https://www.trefis.com/articles/608936/beyond-broadband-what-could-power-comcast-stock-from-here/2026-07-27" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Beyond Broadband: What Could Power Comcast Stock From Here?</p>
+            <p class="text-xs text-gray-500 mt-1">Trefis · 07/27</p>
+        </a>
+        
+        <a href="https://www.trefis.com/articles/608766/howmet-aerospace-stock-and-the-sound-of-one-hand-clapping/2026-07-24" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Howmet Aerospace Stock And The Sound Of One Hand Clapping</p>
+            <p class="text-xs text-gray-500 mt-1">Trefis · 07/24</p>
+        </a>
+        
+        <a href="https://www.barchart.com/story/news/3333501/what-you-need-to-know-ahead-of-host-hotels-resorts-earnings-release" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">What You Need To Know Ahead of Host Hotels & Resorts’ Earnings Release</p>
+            <p class="text-xs text-gray-500 mt-1">Barchart · 07/17</p>
+        </a>
+        
+        <a href="https://finance.yahoo.com/markets/stocks/articles/ladenburg-lifts-pt-host-hotels-083514388.html" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Ladenburg Lifts PT on Host Hotels & Resorts (HST) – Here’s Why</p>
+            <p class="text-xs text-gray-500 mt-1">Insider Monkey · 07/15</p>
+        </a>
+        
+        <a href="https://finance.yahoo.com/markets/stocks/articles/hst-cube-better-value-stock-154003532.html" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">HST or CUBE: Which Is the Better Value Stock Right Now?</p>
+            <p class="text-xs text-gray-500 mt-1">Zacks · 07/14</p>
+        </a>
+        
+            </div>
+        </div>
+
+        <!-- 公司簡介 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">公司簡介</h2>
+            <p class="text-gray-700 text-sm leading-relaxed">Host Hotels & Resorts, Inc., herein referred to as we, Host Inc., or the Company, is a self-managed and self-administered real estate investment trust that owns hotel property. We conduct our operations as an umbrella partnership, REIT, through an operating partnership, Host Hotels & Resorts, L.P., of which we are the sole general partner. When distinguishing between Host Inc. and Host LP, the primary difference is approximately 1% of the partnership interests in Host LP held by outside partners</p>
+            <a href="https://www.hosthotels.com" target="_blank" class="text-blue-500 hover:underline text-sm mt-2 inline-block">官方網站 →</a>
+        </div>
+
+        <!-- 更新時間 -->
+        <p class="text-center text-gray-400 text-sm">更新時間: 2026-07-28 14:18</p>
+
+    </div>
+
+    <script>
+        var trace = {
+            x: ['2026-04-30', '2026-05-01', '2026-05-04', '2026-05-05', '2026-05-06', '2026-05-07', '2026-05-08', '2026-05-11', '2026-05-12', '2026-05-13', '2026-05-14', '2026-05-15', '2026-05-18', '2026-05-19', '2026-05-20', '2026-05-21', '2026-05-22', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29', '2026-06-01', '2026-06-02', '2026-06-03', '2026-06-04', '2026-06-05', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12', '2026-06-15', '2026-06-16', '2026-06-17', '2026-06-18', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-13', '2026-07-14', '2026-07-15', '2026-07-16', '2026-07-17', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-27'],
+            y: [20.35, 20.35, 20.09, 20.52, 20.88, 20.87, 21.45, 20.98, 20.96, 20.76, 20.74, 20.59, 21.06, 20.99, 21.48, 21.58, 21.55, 22.26, 22.61, 22.42, 22.13, 22.32, 22.78, 22.97, 23.55, 23.71, 23.54, 23.57, 23.07, 23.44, 23.97, 23.89, 23.98, 23.71, 24.09, 24.2, 23.9, 23.67, 24.06, 24.13, 24.0, 23.71, 23.35, 23.35, 23.25, 23.35, 22.76, 23.16, 23.18, 23.07, 23.38, 23.8, 23.67, 23.94, 24.06, 24.44, 24.5, 23.96, 24.5, 24.97],
+            type: 'scatter',
+            mode: 'lines',
+            fill: 'tozeroy',
+            line: {color: '#3b82f6', width: 2},
+            fillcolor: 'rgba(59, 130, 246, 0.1)'
+        };
+
+        var layout = {
+            margin: {l: 50, r: 20, t: 20, b: 40},
+            xaxis: {showgrid: false},
+            yaxis: {showgrid: true, gridcolor: '#eee'},
+            hovermode: 'x unified'
+        };
+
+        Plotly.newPlot('price-chart', [trace], layout, {responsive: true});
+    </script>
+</body>
+</html>

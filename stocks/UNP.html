@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNP Union Pacific Corporation - Claude Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- 返回連結 -->
+        <a href="../index.html" class="text-blue-500 hover:underline mb-4 inline-block">← 返回 Dashboard</a>
+
+        <!-- 標題區 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <span class="text-xs bg-gray-200 px-2 py-1 rounded">美股</span>
+                    
+                    <h1 class="text-3xl font-bold mt-2">UNP</h1>
+                    <p class="text-gray-600 text-xl">Union Pacific Corporation</p>
+                    
+                    <p class="text-sm text-gray-500 mt-1">Industrials · Railroads</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-3xl font-bold">$299.30</p>
+                    <p class="text-red-500 text-xl">-8.02 (-2.61%)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 價格走勢圖 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">價格走勢 (近3個月)</h2>
+            <div id="price-chart" style="height: 300px;"></div>
+        </div>
+
+        <!-- 關鍵數據 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">關鍵數據</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">市值</p>
+                    <p class="text-lg font-semibold">177.81B</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">本益比 (P/E)</p>
+                    <p class="text-lg font-semibold">24.23</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">每股盈餘 (EPS)</p>
+                    <p class="text-lg font-semibold">$12.35</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">殖利率</p>
+                    <p class="text-lg font-semibold">1.80%</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最高</p>
+                    <p class="text-lg font-semibold">$315.99</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最低</p>
+                    <p class="text-lg font-semibold">$255.22</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">成交量</p>
+                    <p class="text-lg font-semibold">2.58M</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">平均成交量</p>
+                    <p class="text-lg font-semibold">2.93M</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新新聞 -->
+        <div class="bg-white rounded-lg shadow mb-6">
+            <h2 class="text-xl font-semibold p-6 pb-2">最新新聞</h2>
+            <div class="divide-y">
+                
+        <a href="https://www.wsj.com/business/logistics/union-pacific-norfolk-southern-file-supplemental-information-to-stb-on-merger-f3b5af7a?siteid=yhoof2&yptr=yahoo" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Union Pacific, Norfolk Southern File Supplemental Information to STB on Merger</p>
+            <p class="text-xs text-gray-500 mt-1">The Wall Street Journal · 07/27</p>
+        </a>
+        
+        <a href="https://www.trefis.com/articles/608962/how-much-union-pacific-unp-are-you-really-betting-on/2026-07-27" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">How Much Union Pacific (UNP) Are You Really Betting On?</p>
+            <p class="text-xs text-gray-500 mt-1">Trefis · 07/27</p>
+        </a>
+        
+        <a href="https://finance.yahoo.com/markets/stocks/articles/unp-vs-nsc-one-growth-145755328.html" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">UNP vs. NSC: One Is a Growth Play, the Other a Merger Bet</p>
+            <p class="text-xs text-gray-500 mt-1">Insider Monkey · 07/27</p>
+        </a>
+        
+        <a href="https://www.supplychaindive.com/news/canadian-national-wont-fight-up-ns-merger-under-new-deal/826098/" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Canadian National won’t fight UP-NS merger under new deal</p>
+            <p class="text-xs text-gray-500 mt-1">Supply Chain Dive · 07/27</p>
+        </a>
+        
+        <a href="https://finance.yahoo.com/markets/stocks/articles/conrail-ceo-gorton-retiring-102300484.html" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Conrail CEO Gorton retiring</p>
+            <p class="text-xs text-gray-500 mt-1">FreightWaves · 07/27</p>
+        </a>
+        
+            </div>
+        </div>
+
+        <!-- 公司簡介 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">公司簡介</h2>
+            <p class="text-gray-700 text-sm leading-relaxed">Union Pacific Corporation, through its subsidiary, Union Pacific Railroad Company, operates in the railroad business in the United States. It offers transportation services for grain and grain products, fertilizers, food and refrigerated products, and coal and renewables to grain processors, animal feeders, and ethanol and renewable biofuel producers; and construction products, industrial chemicals, plastics, forest products, specialized products, metals and ores, petroleum, liquid petroleum gas</p>
+            <a href="https://www.up.com" target="_blank" class="text-blue-500 hover:underline text-sm mt-2 inline-block">官方網站 →</a>
+        </div>
+
+        <!-- 更新時間 -->
+        <p class="text-center text-gray-400 text-sm">更新時間: 2026-07-28 14:18</p>
+
+    </div>
+
+    <script>
+        var trace = {
+            x: ['2026-04-30', '2026-05-01', '2026-05-04', '2026-05-05', '2026-05-06', '2026-05-07', '2026-05-08', '2026-05-11', '2026-05-12', '2026-05-13', '2026-05-14', '2026-05-15', '2026-05-18', '2026-05-19', '2026-05-20', '2026-05-21', '2026-05-22', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29', '2026-06-01', '2026-06-02', '2026-06-03', '2026-06-04', '2026-06-05', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12', '2026-06-15', '2026-06-16', '2026-06-17', '2026-06-18', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-13', '2026-07-14', '2026-07-15', '2026-07-16', '2026-07-17', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-27'],
+            y: [268.09, 264.94, 262.05, 262.65, 266.84, 263.52, 263.28, 261.99, 264.23, 263.28, 267.95, 269.16, 273.71, 270.16, 264.43, 264.07, 264.51, 269.7, 277.95, 265.62, 262.64, 263.5, 264.68, 262.13, 263.9, 272.32, 268.67, 271.28, 267.03, 268.28, 272.7, 267.32, 267.45, 258.05, 256.88, 259.91, 258.61, 259.96, 267.73, 268.35, 272.7, 272.0, 277.73, 282.25, 282.59, 283.12, 280.94, 285.04, 286.96, 289.13, 288.3, 288.36, 299.42, 301.75, 296.25, 293.13, 292.56, 304.33, 307.32, 299.3],
+            type: 'scatter',
+            mode: 'lines',
+            fill: 'tozeroy',
+            line: {color: '#3b82f6', width: 2},
+            fillcolor: 'rgba(59, 130, 246, 0.1)'
+        };
+
+        var layout = {
+            margin: {l: 50, r: 20, t: 20, b: 40},
+            xaxis: {showgrid: false},
+            yaxis: {showgrid: true, gridcolor: '#eee'},
+            hovermode: 'x unified'
+        };
+
+        Plotly.newPlot('price-chart', [trace], layout, {responsive: true});
+    </script>
+</body>
+</html>

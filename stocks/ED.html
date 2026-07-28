@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ED Consolidated Edison, Inc. - Claude Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+
+        <!-- 返回連結 -->
+        <a href="../index.html" class="text-blue-500 hover:underline mb-4 inline-block">← 返回 Dashboard</a>
+
+        <!-- 標題區 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <div class="flex justify-between items-start">
+                <div>
+                    <span class="text-xs bg-gray-200 px-2 py-1 rounded">美股</span>
+                    
+                    <h1 class="text-3xl font-bold mt-2">ED</h1>
+                    <p class="text-gray-600 text-xl">Consolidated Edison, Inc.</p>
+                    
+                    <p class="text-sm text-gray-500 mt-1">Utilities · Utilities - Regulated Electric</p>
+                </div>
+                <div class="text-right">
+                    <p class="text-3xl font-bold">$111.50</p>
+                    <p class="text-red-500 text-xl">-1.51 (-1.34%)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 價格走勢圖 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">價格走勢 (近3個月)</h2>
+            <div id="price-chart" style="height: 300px;"></div>
+        </div>
+
+        <!-- 關鍵數據 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">關鍵數據</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">市值</p>
+                    <p class="text-lg font-semibold">41.09B</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">本益比 (P/E)</p>
+                    <p class="text-lg font-semibold">19.06</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">每股盈餘 (EPS)</p>
+                    <p class="text-lg font-semibold">$5.85</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">殖利率</p>
+                    <p class="text-lg font-semibold">3.11%</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最高</p>
+                    <p class="text-lg font-semibold">$115.26</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">52週最低</p>
+                    <p class="text-lg font-semibold">$102.82</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">成交量</p>
+                    <p class="text-lg font-semibold">887.6K</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded">
+                    <p class="text-xs text-gray-500">平均成交量</p>
+                    <p class="text-lg font-semibold">2.43M</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 最新新聞 -->
+        <div class="bg-white rounded-lg shadow mb-6">
+            <h2 class="text-xl font-semibold p-6 pb-2">最新新聞</h2>
+            <div class="divide-y">
+                
+        <a href="https://www.barchart.com/story/news/3386155/what-you-need-to-know-ahead-of-consolidated-edison-s-earnings-release" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">What You Need To Know Ahead of Consolidated Edison's Earnings Release</p>
+            <p class="text-xs text-gray-500 mt-1">Barchart · 07/21</p>
+        </a>
+        
+        <a href="https://247wallst.com/personal-finance/2026/07/17/live-in-manhattan-without-roommates-heres-the-portfolio-that-makes-it-happen/" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Live In Manhattan Without Roommates. Here’s the Portfolio That Makes It Happen.</p>
+            <p class="text-xs text-gray-500 mt-1">24/7 Wall St. · 07/17</p>
+        </a>
+        
+        <a href="https://finance.yahoo.com/markets/stocks/articles/heat-driven-grid-strain-board-180958452.html" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Heat-Driven Grid Strain And New Board Expertise Might Change The Case For Investing In Consolidated Edison (ED)</p>
+            <p class="text-xs text-gray-500 mt-1">Simply Wall St. · 07/04</p>
+        </a>
+        
+        <a href="https://finance.yahoo.com/markets/stocks/articles/con-edison-ed-stock-looks-081015893.html" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Con Edison (ED) Stock Looks Fairly Valued At Current Levels</p>
+            <p class="text-xs text-gray-500 mt-1">Simply Wall St. · 07/04</p>
+        </a>
+        
+        <a href="https://finance.yahoo.com/energy/articles/sweltering-heat-dome-threatens-us-113945114.html" target="_blank" class="block p-3 border-b hover:bg-gray-50">
+            <p class="text-sm font-medium text-gray-800">Sweltering Heat Dome Threatens US Holiday Events and Power Grids</p>
+            <p class="text-xs text-gray-500 mt-1">Bloomberg · 07/03</p>
+        </a>
+        
+            </div>
+        </div>
+
+        <!-- 公司簡介 -->
+        <div class="bg-white rounded-lg shadow p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">公司簡介</h2>
+            <p class="text-gray-700 text-sm leading-relaxed">Consolidated Edison, Inc., through its subsidiaries, engages in the regulated electric, gas, and steam delivery businesses in the United States. The company offers electric services to approximately 3.7 million customers in New York City and Westchester County; gas to approximately 1.1 million customers in Manhattan, the Bronx, parts of Queens, and Westchester County; and steam to approximately 1,490 customers in parts of Manhattan. It also supplies electricity to approximately 0.3 million custo</p>
+            <a href="https://www.conedison.com" target="_blank" class="text-blue-500 hover:underline text-sm mt-2 inline-block">官方網站 →</a>
+        </div>
+
+        <!-- 更新時間 -->
+        <p class="text-center text-gray-400 text-sm">更新時間: 2026-07-28 14:18</p>
+
+    </div>
+
+    <script>
+        var trace = {
+            x: ['2026-04-30', '2026-05-01', '2026-05-04', '2026-05-05', '2026-05-06', '2026-05-07', '2026-05-08', '2026-05-11', '2026-05-12', '2026-05-13', '2026-05-14', '2026-05-15', '2026-05-18', '2026-05-19', '2026-05-20', '2026-05-21', '2026-05-22', '2026-05-26', '2026-05-27', '2026-05-28', '2026-05-29', '2026-06-01', '2026-06-02', '2026-06-03', '2026-06-04', '2026-06-05', '2026-06-08', '2026-06-09', '2026-06-10', '2026-06-11', '2026-06-12', '2026-06-15', '2026-06-16', '2026-06-17', '2026-06-18', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-13', '2026-07-14', '2026-07-15', '2026-07-16', '2026-07-17', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-27'],
+            y: [110.56, 109.57, 108.72, 108.24, 105.98, 105.51, 105.43, 105.33, 106.01, 106.16, 107.13, 105.36, 106.51, 108.14, 106.3, 107.4, 108.54, 107.7, 108.01, 106.3, 105.63, 103.6, 103.79, 103.48, 104.08, 106.26, 104.31, 106.4, 107.6, 106.84, 107.74, 107.72, 108.37, 107.04, 106.36, 106.92, 108.75, 110.72, 110.76, 112.06, 112.29, 110.63, 110.95, 113.99, 111.94, 112.99, 112.09, 110.27, 111.12, 111.82, 111.96, 110.31, 112.39, 112.37, 111.05, 109.81, 112.09, 112.79, 113.01, 111.5],
+            type: 'scatter',
+            mode: 'lines',
+            fill: 'tozeroy',
+            line: {color: '#3b82f6', width: 2},
+            fillcolor: 'rgba(59, 130, 246, 0.1)'
+        };
+
+        var layout = {
+            margin: {l: 50, r: 20, t: 20, b: 40},
+            xaxis: {showgrid: false},
+            yaxis: {showgrid: true, gridcolor: '#eee'},
+            hovermode: 'x unified'
+        };
+
+        Plotly.newPlot('price-chart', [trace], layout, {responsive: true});
+    </script>
+</body>
+</html>
