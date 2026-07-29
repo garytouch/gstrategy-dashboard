@@ -152,14 +152,6 @@
     "url": "stocks/8261.html"
   },
   {
-    "symbol": "4169",
-    "name": "泰宗",
-    "name_en": "TCM Biotech International Corp.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/4169.html"
-  },
-  {
     "symbol": "8027",
     "name": "鈦昇",
     "name_en": "E&R Engineering Corporation",
@@ -198,6 +190,14 @@
     "market": "tw",
     "provisional": false,
     "url": "stocks/6173.html"
+  },
+  {
+    "symbol": "3090",
+    "name": "日電貿",
+    "name_en": "Nichidenbo Corporation",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/3090.html"
   },
   {
     "symbol": "1416",
