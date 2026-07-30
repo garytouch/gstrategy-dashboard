@@ -144,22 +144,6 @@
     "url": "stocks/00713.TW.html"
   },
   {
-    "symbol": "8261",
-    "name": "富鼎",
-    "name_en": "Advanced Power Electronics Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/8261.html"
-  },
-  {
-    "symbol": "8027",
-    "name": "鈦昇",
-    "name_en": "E&R Engineering Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/8027.html"
-  },
-  {
     "symbol": "6831",
     "name": "邁科",
     "name_en": "Taiwan Microloops Corp.",
