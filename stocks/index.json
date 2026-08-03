@@ -144,30 +144,6 @@
     "url": "stocks/00713.TW.html"
   },
   {
-    "symbol": "6831",
-    "name": "邁科",
-    "name_en": "Taiwan Microloops Corp.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/6831.html"
-  },
-  {
-    "symbol": "2492",
-    "name": "華新科",
-    "name_en": "Walsin Technology Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2492.html"
-  },
-  {
-    "symbol": "8096",
-    "name": "擎亞",
-    "name_en": "CoAsia Electronics Corp.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/8096.html"
-  },
-  {
     "symbol": "6173",
     "name": "信昌電",
     "name_en": "Prosperity Dielectrics Co., Ltd.",
@@ -182,6 +158,46 @@
     "market": "tw",
     "provisional": false,
     "url": "stocks/3090.html"
+  },
+  {
+    "symbol": "2492",
+    "name": "華新科",
+    "name_en": "Walsin Technology Corporation",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/2492.html"
+  },
+  {
+    "symbol": "3026",
+    "name": "禾伸堂",
+    "name_en": "Holy Stone Enterprise Co.,Ltd.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/3026.html"
+  },
+  {
+    "symbol": "6683",
+    "name": "雍智科技",
+    "name_en": "Keystone Microtech Corporation",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/6683.html"
+  },
+  {
+    "symbol": "6217",
+    "name": "中探針",
+    "name_en": "C.C.P. Contact Probes Co., Ltd.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/6217.html"
+  },
+  {
+    "symbol": "8028",
+    "name": "昇陽半導體",
+    "name_en": "Phoenix Silicon International Corporation",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/8028.html"
   },
   {
     "symbol": "1416",
