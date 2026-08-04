@@ -144,14 +144,6 @@
     "url": "stocks/00713.TW.html"
   },
   {
-    "symbol": "6173",
-    "name": "信昌電",
-    "name_en": "Prosperity Dielectrics Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/6173.html"
-  },
-  {
     "symbol": "3090",
     "name": "日電貿",
     "name_en": "Nichidenbo Corporation",
@@ -176,6 +168,14 @@
     "url": "stocks/3026.html"
   },
   {
+    "symbol": "6173",
+    "name": "信昌電",
+    "name_en": "Prosperity Dielectrics Co., Ltd.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/6173.html"
+  },
+  {
     "symbol": "6683",
     "name": "雍智科技",
     "name_en": "Keystone Microtech Corporation",
@@ -198,6 +198,22 @@
     "market": "tw",
     "provisional": false,
     "url": "stocks/8028.html"
+  },
+  {
+    "symbol": "3167",
+    "name": "大量",
+    "name_en": "Ta Liang Technology Co., Ltd.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/3167.html"
+  },
+  {
+    "symbol": "6182",
+    "name": "合晶",
+    "name_en": "Wafer Works Corporation",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/6182.html"
   },
   {
     "symbol": "1416",
