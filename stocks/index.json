@@ -144,22 +144,6 @@
     "url": "stocks/00713.TW.html"
   },
   {
-    "symbol": "3090",
-    "name": "日電貿",
-    "name_en": "Nichidenbo Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/3090.html"
-  },
-  {
-    "symbol": "2492",
-    "name": "華新科",
-    "name_en": "Walsin Technology Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2492.html"
-  },
-  {
     "symbol": "3026",
     "name": "禾伸堂",
     "name_en": "Holy Stone Enterprise Co.,Ltd.",
@@ -214,6 +198,22 @@
     "market": "tw",
     "provisional": false,
     "url": "stocks/6182.html"
+  },
+  {
+    "symbol": "7610",
+    "name": "聯友金屬-創",
+    "name_en": "LIANYOU METALS CO LTD",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/7610.html"
+  },
+  {
+    "symbol": "8033",
+    "name": "雷虎",
+    "name_en": "Thunder Tiger Corp.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/8033.html"
   },
   {
     "symbol": "1416",
