@@ -144,44 +144,12 @@
     "url": "stocks/00713.TW.html"
   },
   {
-    "symbol": "6182",
-    "name": "合晶",
-    "name_en": "Wafer Works Corporation",
+    "symbol": "8046",
+    "name": "南電",
+    "name_en": "Nan Ya Printed Circuit Board Corporation",
     "market": "tw",
     "provisional": false,
-    "url": "stocks/6182.html"
-  },
-  {
-    "symbol": "7610",
-    "name": "聯友金屬-創",
-    "name_en": "LIANYOU METALS CO LTD",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/7610.html"
-  },
-  {
-    "symbol": "8033",
-    "name": "雷虎",
-    "name_en": "Thunder Tiger Corp.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/8033.html"
-  },
-  {
-    "symbol": "4979",
-    "name": "華星光",
-    "name_en": "LuxNet Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/4979.html"
-  },
-  {
-    "symbol": "4991",
-    "name": "環宇-KY",
-    "name_en": "GCS Holdings, Inc.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/4991.html"
+    "url": "stocks/8046.html"
   },
   {
     "symbol": "1416",
