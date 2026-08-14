@@ -1,11 +1,59 @@
 [
   {
-    "symbol": "6016",
-    "name": "康和證",
-    "name_en": "Concord Securities Co., Ltd.",
+    "symbol": "2885",
+    "name": "元大金",
+    "name_en": "Yuanta Financial Holding Co., Ltd.",
     "market": "tw",
     "provisional": false,
-    "url": "stocks/6016.html"
+    "url": "stocks/2885.html"
+  },
+  {
+    "symbol": "2302",
+    "name": "麗正",
+    "name_en": "Rectron Limited",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/2302.html"
+  },
+  {
+    "symbol": "2395",
+    "name": "研華",
+    "name_en": "Advantech Co., Ltd.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/2395.html"
+  },
+  {
+    "symbol": "4995",
+    "name": "晶達",
+    "name_en": "Litemax Electronics Inc.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/4995.html"
+  },
+  {
+    "symbol": "6578",
+    "name": "達邦蛋白",
+    "name_en": "DaBomb Protein Biotech Corp.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/6578.html"
+  },
+  {
+    "symbol": "8415",
+    "name": "大國鋼",
+    "name_en": "Brighton-Best International (Taiwan) Inc.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/8415.html"
+  },
+  {
+    "symbol": "2851",
+    "name": "中再保",
+    "name_en": "Central Reinsurance Corporation",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/2851.html"
   },
   {
     "symbol": "2855",
@@ -24,20 +72,12 @@
     "url": "stocks/2891.html"
   },
   {
-    "symbol": "2851",
-    "name": "中再保",
-    "name_en": "Central Reinsurance Corporation",
+    "symbol": "6016",
+    "name": "康和證",
+    "name_en": "Concord Securities Co., Ltd.",
     "market": "tw",
     "provisional": false,
-    "url": "stocks/2851.html"
-  },
-  {
-    "symbol": "2885",
-    "name": "元大金",
-    "name_en": "Yuanta Financial Holding Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2885.html"
+    "url": "stocks/6016.html"
   },
   {
     "symbol": "6020",
