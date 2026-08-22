@@ -48,46 +48,6 @@
     "url": "stocks/8415.html"
   },
   {
-    "symbol": "2851",
-    "name": "中再保",
-    "name_en": "Central Reinsurance Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2851.html"
-  },
-  {
-    "symbol": "2855",
-    "name": "統一證",
-    "name_en": "President Securities Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2855.html"
-  },
-  {
-    "symbol": "2891",
-    "name": "中信金",
-    "name_en": "CTBC Financial Holding Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2891.html"
-  },
-  {
-    "symbol": "6016",
-    "name": "康和證",
-    "name_en": "Concord Securities Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/6016.html"
-  },
-  {
-    "symbol": "6020",
-    "name": "大展證",
-    "name_en": "Tachan Securities Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/6020.html"
-  },
-  {
     "symbol": "CSCO",
     "name": "Cisco Systems, Inc.",
     "name_en": "Cisco Systems, Inc.",
@@ -184,12 +144,12 @@
     "url": "stocks/00713.TW.html"
   },
   {
-    "symbol": "8046",
-    "name": "南電",
-    "name_en": "Nan Ya Printed Circuit Board Corporation",
+    "symbol": "3362",
+    "name": "先進光",
+    "name_en": "Ability Opto-Electronics Technology Co.,Ltd.",
     "market": "tw",
     "provisional": false,
-    "url": "stocks/8046.html"
+    "url": "stocks/3362.html"
   },
   {
     "symbol": "1416",
@@ -246,6 +206,14 @@
     "market": "tw",
     "provisional": false,
     "url": "stocks/2850.html"
+  },
+  {
+    "symbol": "2851",
+    "name": "中再保",
+    "name_en": "Central Reinsurance Corporation",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/2851.html"
   },
   {
     "symbol": "2852",
