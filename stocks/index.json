@@ -144,12 +144,20 @@
     "url": "stocks/00713.TW.html"
   },
   {
-    "symbol": "3362",
-    "name": "先進光",
-    "name_en": "Ability Opto-Electronics Technology Co.,Ltd.",
+    "symbol": "3163",
+    "name": "波若威",
+    "name_en": "Browave Corporation",
     "market": "tw",
     "provisional": false,
-    "url": "stocks/3362.html"
+    "url": "stocks/3163.html"
+  },
+  {
+    "symbol": "4931",
+    "name": "新盛力",
+    "name_en": "STL Technology Co., Ltd.",
+    "market": "tw",
+    "provisional": false,
+    "url": "stocks/4931.html"
   },
   {
     "symbol": "1416",
