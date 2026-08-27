@@ -1,258 +1,262 @@
-[
-  {
-    "symbol": "2885",
-    "name": "元大金",
-    "name_en": "Yuanta Financial Holding Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2885.html"
-  },
-  {
-    "symbol": "2302",
-    "name": "麗正",
-    "name_en": "Rectron Limited",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2302.html"
-  },
-  {
-    "symbol": "2395",
-    "name": "研華",
-    "name_en": "Advantech Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2395.html"
-  },
-  {
-    "symbol": "4995",
-    "name": "晶達",
-    "name_en": "Litemax Electronics Inc.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/4995.html"
-  },
-  {
-    "symbol": "6578",
-    "name": "達邦蛋白",
-    "name_en": "DaBomb Protein Biotech Corp.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/6578.html"
-  },
-  {
-    "symbol": "8415",
-    "name": "大國鋼",
-    "name_en": "Brighton-Best International (Taiwan) Inc.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/8415.html"
-  },
-  {
-    "symbol": "CSCO",
-    "name": "Cisco Systems, Inc.",
-    "name_en": "Cisco Systems, Inc.",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/CSCO.html"
-  },
-  {
-    "symbol": "DUK",
-    "name": "Duke Energy Corporation",
-    "name_en": "Duke Energy Corporation",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/DUK.html"
-  },
-  {
-    "symbol": "ED",
-    "name": "Consolidated Edison, Inc.",
-    "name_en": "Consolidated Edison, Inc.",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/ED.html"
-  },
-  {
-    "symbol": "FDX",
-    "name": "FedEx Corporation",
-    "name_en": "FedEx Corporation",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/FDX.html"
-  },
-  {
-    "symbol": "GL",
-    "name": "Globe Life Inc.",
-    "name_en": "Globe Life Inc.",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/GL.html"
-  },
-  {
-    "symbol": "HST",
-    "name": "Host Hotels & Resorts, Inc.",
-    "name_en": "Host Hotels & Resorts, Inc.",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/HST.html"
-  },
-  {
-    "symbol": "LYV",
-    "name": "Live Nation Entertainment, Inc.",
-    "name_en": "Live Nation Entertainment, Inc.",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/LYV.html"
-  },
-  {
-    "symbol": "MAR",
-    "name": "Marriott International, Inc.",
-    "name_en": "Marriott International, Inc.",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/MAR.html"
-  },
-  {
-    "symbol": "UNP",
-    "name": "Union Pacific Corporation",
-    "name_en": "Union Pacific Corporation",
-    "market": "us",
-    "provisional": false,
-    "url": "stocks/UNP.html"
-  },
-  {
-    "symbol": "TQQQ",
-    "name": "ProShares UltraPro QQQ",
-    "name_en": "ProShares UltraPro QQQ",
-    "market": "etf",
-    "provisional": false,
-    "url": "stocks/TQQQ.html"
-  },
-  {
-    "symbol": "00631L.TW",
-    "name": "Yuanta Daily Taiwan 50 Bull 2X ETF",
-    "name_en": "Yuanta Daily Taiwan 50 Bull 2X ETF",
-    "market": "etf",
-    "provisional": false,
-    "url": "stocks/00631L.TW.html"
-  },
-  {
-    "symbol": "00713.TW",
-    "name": "Yuanta Taiwan High Dividend Low Volatility ETF",
-    "name_en": "Yuanta Taiwan High Dividend Low Volatility ETF",
-    "market": "etf",
-    "provisional": false,
-    "url": "stocks/00713.TW.html"
-  },
-  {
-    "symbol": "3163",
-    "name": "波若威",
-    "name_en": "Browave Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/3163.html"
-  },
-  {
-    "symbol": "4931",
-    "name": "新盛力",
-    "name_en": "STL Technology Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/4931.html"
-  },
-  {
-    "symbol": "1416",
-    "name": "廣豐",
-    "name_en": "Kwong Fong Industries Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/1416.html"
-  },
-  {
-    "symbol": "2248",
-    "name": "華勝-KY",
-    "name_en": "Shining Victory Motor Electronic Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2248.html"
-  },
-  {
-    "symbol": "2637",
-    "name": "慧洋-KY",
-    "name_en": "Wisdom Marine Lines Co., Limited (Cayman)",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2637.html"
-  },
-  {
-    "symbol": "2812",
-    "name": "台中銀",
-    "name_en": "Taichung Commercial Bank Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2812.html"
-  },
-  {
-    "symbol": "2816",
-    "name": "旺旺保",
-    "name_en": "Union Insurance Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2816.html"
-  },
-  {
-    "symbol": "2832",
-    "name": "台產",
-    "name_en": "Taiwan Fire & Marine Insurance Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2832.html"
-  },
-  {
-    "symbol": "2850",
-    "name": "新產",
-    "name_en": "Shinkong Insurance Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2850.html"
-  },
-  {
-    "symbol": "2851",
-    "name": "中再保",
-    "name_en": "Central Reinsurance Corporation",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2851.html"
-  },
-  {
-    "symbol": "2852",
-    "name": "第一保",
-    "name_en": "The First Insurance Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/2852.html"
-  },
-  {
-    "symbol": "3052",
-    "name": "夆典",
-    "name_en": "Apex Science & Engineering Corp.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/3052.html"
-  },
-  {
-    "symbol": "3512",
-    "name": "皇龍",
-    "name_en": "Huang Long Development Co.,Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/3512.html"
-  },
-  {
-    "symbol": "6951",
-    "name": "青新-創",
-    "name_en": "Chin Hsin Environ Engineering Co., Ltd.",
-    "market": "tw",
-    "provisional": false,
-    "url": "stocks/6951.html"
-  }
-]
+{
+  "schema": "claude-quant.stock-pages-index.v1",
+  "generated_at": "2026-08-27T08:20:25.248413+00:00",
+  "stocks": [
+    {
+      "symbol": "2885",
+      "name": "元大金",
+      "name_en": "Yuanta Financial Holding Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2885.html"
+    },
+    {
+      "symbol": "2302",
+      "name": "麗正",
+      "name_en": "Rectron Limited",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2302.html"
+    },
+    {
+      "symbol": "2395",
+      "name": "研華",
+      "name_en": "Advantech Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2395.html"
+    },
+    {
+      "symbol": "4995",
+      "name": "晶達",
+      "name_en": "Litemax Electronics Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/4995.html"
+    },
+    {
+      "symbol": "6578",
+      "name": "達邦蛋白",
+      "name_en": "DaBomb Protein Biotech Corp.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6578.html"
+    },
+    {
+      "symbol": "8415",
+      "name": "大國鋼",
+      "name_en": "Brighton-Best International (Taiwan) Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/8415.html"
+    },
+    {
+      "symbol": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "name_en": "Cisco Systems, Inc.",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/CSCO.html"
+    },
+    {
+      "symbol": "DUK",
+      "name": "Duke Energy Corporation",
+      "name_en": "Duke Energy Corporation",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/DUK.html"
+    },
+    {
+      "symbol": "ED",
+      "name": "Consolidated Edison, Inc.",
+      "name_en": "Consolidated Edison, Inc.",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/ED.html"
+    },
+    {
+      "symbol": "FDX",
+      "name": "FedEx Corporation",
+      "name_en": "FedEx Corporation",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/FDX.html"
+    },
+    {
+      "symbol": "GL",
+      "name": "Globe Life Inc.",
+      "name_en": "Globe Life Inc.",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/GL.html"
+    },
+    {
+      "symbol": "HST",
+      "name": "Host Hotels & Resorts, Inc.",
+      "name_en": "Host Hotels & Resorts, Inc.",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/HST.html"
+    },
+    {
+      "symbol": "LYV",
+      "name": "Live Nation Entertainment, Inc.",
+      "name_en": "Live Nation Entertainment, Inc.",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/LYV.html"
+    },
+    {
+      "symbol": "MAR",
+      "name": "Marriott International, Inc.",
+      "name_en": "Marriott International, Inc.",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/MAR.html"
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "name_en": "Union Pacific Corporation",
+      "market": "us",
+      "provisional": false,
+      "url": "stocks/UNP.html"
+    },
+    {
+      "symbol": "TQQQ",
+      "name": "ProShares UltraPro QQQ",
+      "name_en": "ProShares UltraPro QQQ",
+      "market": "etf",
+      "provisional": false,
+      "url": "stocks/TQQQ.html"
+    },
+    {
+      "symbol": "00631L.TW",
+      "name": "Yuanta Daily Taiwan 50 Bull 2X ETF",
+      "name_en": "Yuanta Daily Taiwan 50 Bull 2X ETF",
+      "market": "etf",
+      "provisional": false,
+      "url": "stocks/00631L.TW.html"
+    },
+    {
+      "symbol": "00713.TW",
+      "name": "Yuanta Taiwan High Dividend Low Volatility ETF",
+      "name_en": "Yuanta Taiwan High Dividend Low Volatility ETF",
+      "market": "etf",
+      "provisional": false,
+      "url": "stocks/00713.TW.html"
+    },
+    {
+      "symbol": "3163",
+      "name": "波若威",
+      "name_en": "Browave Corporation",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3163.html"
+    },
+    {
+      "symbol": "4931",
+      "name": "新盛力",
+      "name_en": "STL Technology Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/4931.html"
+    },
+    {
+      "symbol": "1416",
+      "name": "廣豐",
+      "name_en": "Kwong Fong Industries Corporation",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/1416.html"
+    },
+    {
+      "symbol": "2248",
+      "name": "華勝-KY",
+      "name_en": "Shining Victory Motor Electronic Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2248.html"
+    },
+    {
+      "symbol": "2637",
+      "name": "慧洋-KY",
+      "name_en": "Wisdom Marine Lines Co., Limited (Cayman)",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2637.html"
+    },
+    {
+      "symbol": "2812",
+      "name": "台中銀",
+      "name_en": "Taichung Commercial Bank Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2812.html"
+    },
+    {
+      "symbol": "2816",
+      "name": "旺旺保",
+      "name_en": "Union Insurance Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2816.html"
+    },
+    {
+      "symbol": "2832",
+      "name": "台產",
+      "name_en": "Taiwan Fire & Marine Insurance Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2832.html"
+    },
+    {
+      "symbol": "2850",
+      "name": "新產",
+      "name_en": "Shinkong Insurance Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2850.html"
+    },
+    {
+      "symbol": "2851",
+      "name": "中再保",
+      "name_en": "Central Reinsurance Corporation",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2851.html"
+    },
+    {
+      "symbol": "2852",
+      "name": "第一保",
+      "name_en": "The First Insurance Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2852.html"
+    },
+    {
+      "symbol": "3052",
+      "name": "夆典",
+      "name_en": "Apex Science & Engineering Corp.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3052.html"
+    },
+    {
+      "symbol": "3512",
+      "name": "皇龍",
+      "name_en": "Huang Long Development Co.,Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3512.html"
+    },
+    {
+      "symbol": "6951",
+      "name": "青新-創",
+      "name_en": "Chin Hsin Environ Engineering Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6951.html"
+    }
+  ]
+}
