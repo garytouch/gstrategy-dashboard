@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-08-30T06:18:03.610449+00:00",
+  "generated_at": "2026-08-31T06:20:11.308763+00:00",
   "stocks": [
     {
       "symbol": "2885",
@@ -145,22 +145,6 @@
       "market": "etf",
       "provisional": false,
       "url": "stocks/00713.TW.html"
-    },
-    {
-      "symbol": "3163",
-      "name": "波若威",
-      "name_en": "Browave Corporation",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/3163.html"
-    },
-    {
-      "symbol": "4931",
-      "name": "新盛力",
-      "name_en": "STL Technology Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/4931.html"
     },
     {
       "symbol": "1416",
