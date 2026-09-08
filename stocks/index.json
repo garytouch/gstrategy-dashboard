@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-09-07T06:30:06.381078+00:00",
+  "generated_at": "2026-09-08T06:43:55.573272+00:00",
   "stocks": [
     {
       "symbol": "2885",
@@ -145,14 +145,6 @@
       "market": "etf",
       "provisional": false,
       "url": "stocks/00713.TW.html"
-    },
-    {
-      "symbol": "3362",
-      "name": "先進光",
-      "name_en": "Ability Opto-Electronics Technology Co.,Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/3362.html"
     },
     {
       "symbol": "1416",
