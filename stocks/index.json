@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-09-10T06:21:54.044684+00:00",
+  "generated_at": "2026-09-11T06:23:40.810018+00:00",
   "stocks": [
     {
       "symbol": "2885",
@@ -145,6 +145,22 @@
       "market": "etf",
       "provisional": false,
       "url": "stocks/00713.TW.html"
+    },
+    {
+      "symbol": "3374",
+      "name": "精材",
+      "name_en": "Xintec Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3374.html"
+    },
+    {
+      "symbol": "8358",
+      "name": "金居",
+      "name_en": "Co-Tech Development Corporation",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/8358.html"
     },
     {
       "symbol": "1416",
