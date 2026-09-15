@@ -1,23 +1,7 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-09-14T06:16:19.911496+00:00",
+  "generated_at": "2026-09-15T17:00:38.235773+00:00",
   "stocks": [
-    {
-      "symbol": "2885",
-      "name": "元大金",
-      "name_en": "Yuanta Financial Holding Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2885.html"
-    },
-    {
-      "symbol": "2302",
-      "name": "麗正",
-      "name_en": "Rectron Limited",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2302.html"
-    },
     {
       "symbol": "2395",
       "name": "研華",
@@ -33,6 +17,54 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/4995.html"
+    },
+    {
+      "symbol": "2221",
+      "name": "大甲",
+      "name_en": "Tachia Yung Ho Machine Industry Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2221.html"
+    },
+    {
+      "symbol": "2347",
+      "name": "聯強",
+      "name_en": "Synnex Technology International Corporation",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2347.html"
+    },
+    {
+      "symbol": "2636",
+      "name": "台驊控股",
+      "name_en": "T3EX Global Holdings Corp.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2636.html"
+    },
+    {
+      "symbol": "5209",
+      "name": "新鼎",
+      "name_en": "CTCI Advanced Systems Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/5209.html"
+    },
+    {
+      "symbol": "2302",
+      "name": "麗正",
+      "name_en": "Rectron Limited",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2302.html"
+    },
+    {
+      "symbol": "2885",
+      "name": "元大金",
+      "name_en": "Yuanta Financial Holding Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2885.html"
     },
     {
       "symbol": "6578",
