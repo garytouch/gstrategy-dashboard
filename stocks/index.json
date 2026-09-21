@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-09-20T06:11:14.639949+00:00",
+  "generated_at": "2026-09-21T06:19:58.459029+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -49,38 +49,6 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/5209.html"
-    },
-    {
-      "symbol": "2302",
-      "name": "麗正",
-      "name_en": "Rectron Limited",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2302.html"
-    },
-    {
-      "symbol": "2885",
-      "name": "元大金",
-      "name_en": "Yuanta Financial Holding Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2885.html"
-    },
-    {
-      "symbol": "6578",
-      "name": "達邦蛋白",
-      "name_en": "DaBomb Protein Biotech Corp.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/6578.html"
-    },
-    {
-      "symbol": "8415",
-      "name": "大國鋼",
-      "name_en": "Brighton-Best International (Taiwan) Inc.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/8415.html"
     },
     {
       "symbol": "CSCO",
