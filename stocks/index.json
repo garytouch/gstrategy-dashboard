@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-10-05T06:22:33.341892+00:00",
+  "generated_at": "2026-10-06T06:29:14.321105+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -145,6 +145,14 @@
       "market": "etf",
       "provisional": false,
       "url": "stocks/00713.TW.html"
+    },
+    {
+      "symbol": "2455",
+      "name": "全新",
+      "name_en": "Visual Photonics Epitaxy Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2455.html"
     },
     {
       "symbol": "1416",
