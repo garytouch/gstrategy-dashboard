@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-10-06T06:29:14.321105+00:00",
+  "generated_at": "2026-10-07T06:31:21.553879+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -147,12 +147,84 @@
       "url": "stocks/00713.TW.html"
     },
     {
-      "symbol": "2455",
-      "name": "全新",
-      "name_en": "Visual Photonics Epitaxy Co., Ltd.",
+      "symbol": "2607",
+      "name": "榮運",
+      "name_en": "Evergreen International Storage & Transport Corporation",
       "market": "tw",
       "provisional": false,
-      "url": "stocks/2455.html"
+      "url": "stocks/2607.html"
+    },
+    {
+      "symbol": "3570",
+      "name": "大塚",
+      "name_en": "Otsuka Information Technology Corp.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3570.html"
+    },
+    {
+      "symbol": "4417",
+      "name": "金洲",
+      "name_en": "King Chou Marine Technology Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/4417.html"
+    },
+    {
+      "symbol": "4905",
+      "name": "台聯電",
+      "name_en": "Tainet Communication System Corp.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/4905.html"
+    },
+    {
+      "symbol": "5864",
+      "name": "致和證",
+      "name_en": "Concord International Securities Co., Ltd",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/5864.html"
+    },
+    {
+      "symbol": "6015",
+      "name": "宏遠證",
+      "name_en": "Horizon Securities Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6015.html"
+    },
+    {
+      "symbol": "6016",
+      "name": "康和證",
+      "name_en": "Concord Securities Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6016.html"
+    },
+    {
+      "symbol": "6026",
+      "name": "福邦證",
+      "name_en": "Grand Fortune Securities Co.,Ltd",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6026.html"
+    },
+    {
+      "symbol": "6227",
+      "name": "茂綸",
+      "name_en": "Macnica Galaxy Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6227.html"
+    },
+    {
+      "symbol": "8446",
+      "name": "華研",
+      "name_en": "HIM International Music Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/8446.html"
     },
     {
       "symbol": "1416",
