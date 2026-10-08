@@ -1,7 +1,7 @@
 {
   "schema": "claude-quant.deployment_metadata/1",
-  "dashboard_generated_at": "2026-10-07 14:37:46",
-  "index_sha256": "74cd4f9366f555b93b30b33f164462f20f7f23fbf0034c39f1b33e83d49b164e",
+  "dashboard_generated_at": "2026-10-09 00:05:12",
+  "index_sha256": "9cba33d20c844fb5696053ae1881dab9c16e07498d666708df29e05faf03657e",
   "index_bytes": 896463,
-  "deployed_at": "2026-10-07T14:37:56"
+  "deployed_at": "2026-10-09T00:05:23"
 }
