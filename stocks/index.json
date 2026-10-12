@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-10-11T06:20:36.749086+00:00",
+  "generated_at": "2026-10-12T06:16:22.022765+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -225,102 +225,6 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/8446.html"
-    },
-    {
-      "symbol": "1416",
-      "name": "廣豐",
-      "name_en": "Kwong Fong Industries Corporation",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/1416.html"
-    },
-    {
-      "symbol": "2248",
-      "name": "華勝-KY",
-      "name_en": "Shining Victory Motor Electronic Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2248.html"
-    },
-    {
-      "symbol": "2637",
-      "name": "慧洋-KY",
-      "name_en": "Wisdom Marine Lines Co., Limited (Cayman)",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2637.html"
-    },
-    {
-      "symbol": "2812",
-      "name": "台中銀",
-      "name_en": "Taichung Commercial Bank Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2812.html"
-    },
-    {
-      "symbol": "2816",
-      "name": "旺旺保",
-      "name_en": "Union Insurance Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2816.html"
-    },
-    {
-      "symbol": "2832",
-      "name": "台產",
-      "name_en": "Taiwan Fire & Marine Insurance Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2832.html"
-    },
-    {
-      "symbol": "2850",
-      "name": "新產",
-      "name_en": "Shinkong Insurance Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2850.html"
-    },
-    {
-      "symbol": "2851",
-      "name": "中再保",
-      "name_en": "Central Reinsurance Corporation",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2851.html"
-    },
-    {
-      "symbol": "2852",
-      "name": "第一保",
-      "name_en": "The First Insurance Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2852.html"
-    },
-    {
-      "symbol": "3052",
-      "name": "夆典",
-      "name_en": "Apex Science & Engineering Corp.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/3052.html"
-    },
-    {
-      "symbol": "3512",
-      "name": "皇龍",
-      "name_en": "Huang Long Development Co.,Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/3512.html"
-    },
-    {
-      "symbol": "6951",
-      "name": "青新-創",
-      "name_en": "Chin Hsin Environ Engineering Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/6951.html"
     }
   ]
 }
