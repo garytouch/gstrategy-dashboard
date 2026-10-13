@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-10-12T06:16:22.022765+00:00",
+  "generated_at": "2026-10-13T06:22:44.947384+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -145,6 +145,22 @@
       "market": "etf",
       "provisional": false,
       "url": "stocks/00713.TW.html"
+    },
+    {
+      "symbol": "3016",
+      "name": "嘉晶",
+      "name_en": "Episil-Precision Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3016.html"
+    },
+    {
+      "symbol": "3055",
+      "name": "蔚華科",
+      "name_en": "Spirox Corporation",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3055.html"
     },
     {
       "symbol": "2607",
