@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-10-13T06:22:44.947384+00:00",
+  "generated_at": "2026-10-14T06:18:14.238102+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -9,22 +9,6 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/2395.html"
-    },
-    {
-      "symbol": "4995",
-      "name": "晶達",
-      "name_en": "Litemax Electronics Inc.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/4995.html"
-    },
-    {
-      "symbol": "2221",
-      "name": "大甲",
-      "name_en": "Tachia Yung Ho Machine Industry Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2221.html"
     },
     {
       "symbol": "2347",
@@ -49,6 +33,38 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/5209.html"
+    },
+    {
+      "symbol": "3052",
+      "name": "夆典",
+      "name_en": "Apex Science & Engineering Corp.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/3052.html"
+    },
+    {
+      "symbol": "6691",
+      "name": "洋基工程",
+      "name_en": "Yankey Engineering Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6691.html"
+    },
+    {
+      "symbol": "2221",
+      "name": "大甲",
+      "name_en": "Tachia Yung Ho Machine Industry Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2221.html"
+    },
+    {
+      "symbol": "4995",
+      "name": "晶達",
+      "name_en": "Litemax Electronics Inc.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/4995.html"
     },
     {
       "symbol": "CSCO",
@@ -145,22 +161,6 @@
       "market": "etf",
       "provisional": false,
       "url": "stocks/00713.TW.html"
-    },
-    {
-      "symbol": "3016",
-      "name": "嘉晶",
-      "name_en": "Episil-Precision Inc.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/3016.html"
-    },
-    {
-      "symbol": "3055",
-      "name": "蔚華科",
-      "name_en": "Spirox Corporation",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/3055.html"
     },
     {
       "symbol": "2607",
