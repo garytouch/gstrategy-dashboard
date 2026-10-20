@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-10-19T14:15:03.227007+00:00",
+  "generated_at": "2026-10-20T06:24:11.363265+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -49,22 +49,6 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/6691.html"
-    },
-    {
-      "symbol": "2221",
-      "name": "大甲",
-      "name_en": "Tachia Yung Ho Machine Industry Co., Ltd.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2221.html"
-    },
-    {
-      "symbol": "4995",
-      "name": "晶達",
-      "name_en": "Litemax Electronics Inc.",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/4995.html"
     },
     {
       "symbol": "CSCO",
