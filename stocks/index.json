@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-10-21T06:20:19.501885+00:00",
+  "generated_at": "2026-10-21T14:17:52.902352+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -49,6 +49,14 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/6691.html"
+    },
+    {
+      "symbol": "2221",
+      "name": "大甲",
+      "name_en": "Tachia Yung Ho Machine Industry Co., Ltd.",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2221.html"
     },
     {
       "symbol": "CSCO",
