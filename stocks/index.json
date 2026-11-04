@@ -1,227 +1,227 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-11-02T14:23:20.564442+00:00",
+  "generated_at": "2026-11-04T06:54:39.722838+00:00",
   "stocks": [
     {
       "symbol": "2395",
-      "name": "研華",
-      "name_en": "Advantech Co., Ltd.",
+      "name": "2395",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/2395.html"
     },
     {
       "symbol": "2347",
-      "name": "聯強",
-      "name_en": "Synnex Technology International Corporation",
+      "name": "2347",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/2347.html"
     },
     {
       "symbol": "2636",
-      "name": "台驊控股",
-      "name_en": "T3EX Global Holdings Corp.",
+      "name": "2636",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/2636.html"
     },
     {
       "symbol": "5209",
-      "name": "新鼎",
-      "name_en": "CTCI Advanced Systems Inc.",
+      "name": "5209",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/5209.html"
     },
     {
       "symbol": "3052",
-      "name": "夆典",
-      "name_en": "Apex Science & Engineering Corp.",
+      "name": "3052",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/3052.html"
     },
     {
       "symbol": "6691",
-      "name": "洋基工程",
-      "name_en": "Yankey Engineering Co., Ltd.",
+      "name": "6691",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/6691.html"
     },
     {
       "symbol": "CSCO",
-      "name": "Cisco Systems, Inc.",
-      "name_en": "Cisco Systems, Inc.",
+      "name": "CSCO",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/CSCO.html"
     },
     {
       "symbol": "DUK",
-      "name": "Duke Energy Corporation",
-      "name_en": "Duke Energy Corporation",
+      "name": "DUK",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/DUK.html"
     },
     {
       "symbol": "ED",
-      "name": "Consolidated Edison, Inc.",
-      "name_en": "Consolidated Edison, Inc.",
+      "name": "ED",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/ED.html"
     },
     {
       "symbol": "FDX",
-      "name": "FedEx Corporation",
-      "name_en": "FedEx Corporation",
+      "name": "FDX",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/FDX.html"
     },
     {
       "symbol": "GL",
-      "name": "Globe Life Inc.",
-      "name_en": "Globe Life Inc.",
+      "name": "GL",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/GL.html"
     },
     {
       "symbol": "HST",
-      "name": "Host Hotels & Resorts, Inc.",
-      "name_en": "Host Hotels & Resorts, Inc.",
+      "name": "HST",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/HST.html"
     },
     {
       "symbol": "LYV",
-      "name": "Live Nation Entertainment, Inc.",
-      "name_en": "Live Nation Entertainment, Inc.",
+      "name": "LYV",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/LYV.html"
     },
     {
       "symbol": "MAR",
-      "name": "Marriott International, Inc.",
-      "name_en": "Marriott International, Inc.",
+      "name": "MAR",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/MAR.html"
     },
     {
       "symbol": "UNP",
-      "name": "Union Pacific Corporation",
-      "name_en": "Union Pacific Corporation",
+      "name": "UNP",
+      "name_en": "",
       "market": "us",
       "provisional": false,
       "url": "stocks/UNP.html"
     },
     {
       "symbol": "TQQQ",
-      "name": "ProShares UltraPro QQQ",
-      "name_en": "ProShares UltraPro QQQ",
+      "name": "TQQQ",
+      "name_en": "",
       "market": "etf",
       "provisional": false,
       "url": "stocks/TQQQ.html"
     },
     {
       "symbol": "00631L.TW",
-      "name": "Yuanta Daily Taiwan 50 Bull 2X ETF",
-      "name_en": "Yuanta Daily Taiwan 50 Bull 2X ETF",
+      "name": "00631L.TW",
+      "name_en": "",
       "market": "etf",
       "provisional": false,
       "url": "stocks/00631L.TW.html"
     },
     {
       "symbol": "00713.TW",
-      "name": "Yuanta Taiwan High Dividend Low Volatility ETF",
-      "name_en": "Yuanta Taiwan High Dividend Low Volatility ETF",
+      "name": "00713.TW",
+      "name_en": "",
       "market": "etf",
       "provisional": false,
       "url": "stocks/00713.TW.html"
     },
     {
       "symbol": "2607",
-      "name": "榮運",
-      "name_en": "Evergreen International Storage & Transport Corporation",
+      "name": "2607",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/2607.html"
     },
     {
       "symbol": "3570",
-      "name": "大塚",
-      "name_en": "Otsuka Information Technology Corp.",
+      "name": "3570",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/3570.html"
     },
     {
       "symbol": "4417",
-      "name": "金洲",
-      "name_en": "King Chou Marine Technology Co., Ltd.",
+      "name": "4417",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/4417.html"
     },
     {
       "symbol": "4905",
-      "name": "台聯電",
-      "name_en": "Tainet Communication System Corp.",
+      "name": "4905",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/4905.html"
     },
     {
       "symbol": "5864",
-      "name": "致和證",
-      "name_en": "Concord International Securities Co., Ltd",
+      "name": "5864",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/5864.html"
     },
     {
       "symbol": "6015",
-      "name": "宏遠證",
-      "name_en": "Horizon Securities Co., Ltd.",
+      "name": "6015",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/6015.html"
     },
     {
       "symbol": "6016",
-      "name": "康和證",
-      "name_en": "Concord Securities Co., Ltd.",
+      "name": "6016",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/6016.html"
     },
     {
       "symbol": "6026",
-      "name": "福邦證",
-      "name_en": "Grand Fortune Securities Co.,Ltd",
+      "name": "6026",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/6026.html"
     },
     {
       "symbol": "6227",
-      "name": "茂綸",
-      "name_en": "Macnica Galaxy Inc.",
+      "name": "6227",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/6227.html"
     },
     {
       "symbol": "8446",
-      "name": "華研",
-      "name_en": "HIM International Music Inc.",
+      "name": "8446",
+      "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/8446.html"
