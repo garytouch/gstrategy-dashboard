@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-11-06T14:25:44.647755+00:00",
+  "generated_at": "2026-11-07T07:01:49.098587+00:00",
   "stocks": [
     {
       "symbol": "2395",
@@ -123,12 +123,12 @@
       "url": "stocks/UNP.html"
     },
     {
-      "symbol": "TQQQ",
-      "name": "TQQQ",
+      "symbol": "GLD",
+      "name": "GLD",
       "name_en": "",
       "market": "etf",
       "provisional": false,
-      "url": "stocks/TQQQ.html"
+      "url": "stocks/GLD.html"
     },
     {
       "symbol": "00631L.TW",
