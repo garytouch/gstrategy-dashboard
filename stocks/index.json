@@ -1,14 +1,54 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-11-13T07:08:32.921130+00:00",
+  "generated_at": "2026-11-13T14:41:56.343810+00:00",
   "stocks": [
     {
-      "symbol": "2395",
-      "name": "2395",
+      "symbol": "1232",
+      "name": "1232",
       "name_en": "",
       "market": "tw",
       "provisional": false,
-      "url": "stocks/2395.html"
+      "url": "stocks/1232.html"
+    },
+    {
+      "symbol": "2221",
+      "name": "2221",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2221.html"
+    },
+    {
+      "symbol": "2618",
+      "name": "2618",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2618.html"
+    },
+    {
+      "symbol": "4961",
+      "name": "4961",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/4961.html"
+    },
+    {
+      "symbol": "6221",
+      "name": "6221",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/6221.html"
+    },
+    {
+      "symbol": "8415",
+      "name": "8415",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/8415.html"
     },
     {
       "symbol": "2347",
@@ -19,6 +59,14 @@
       "url": "stocks/2347.html"
     },
     {
+      "symbol": "2395",
+      "name": "2395",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2395.html"
+    },
+    {
       "symbol": "2636",
       "name": "2636",
       "name_en": "",
@@ -27,20 +75,20 @@
       "url": "stocks/2636.html"
     },
     {
-      "symbol": "5209",
-      "name": "5209",
-      "name_en": "",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/5209.html"
-    },
-    {
       "symbol": "3052",
       "name": "3052",
       "name_en": "",
       "market": "tw",
       "provisional": false,
       "url": "stocks/3052.html"
+    },
+    {
+      "symbol": "5209",
+      "name": "5209",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/5209.html"
     },
     {
       "symbol": "6691",
