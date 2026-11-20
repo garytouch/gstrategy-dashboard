@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-11-19T14:22:26.469149+00:00",
+  "generated_at": "2026-11-20T06:55:08.445266+00:00",
   "stocks": [
     {
       "symbol": "1232",
@@ -49,54 +49,6 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/8415.html"
-    },
-    {
-      "symbol": "2347",
-      "name": "2347",
-      "name_en": "",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2347.html"
-    },
-    {
-      "symbol": "2395",
-      "name": "2395",
-      "name_en": "",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2395.html"
-    },
-    {
-      "symbol": "2636",
-      "name": "2636",
-      "name_en": "",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/2636.html"
-    },
-    {
-      "symbol": "3052",
-      "name": "3052",
-      "name_en": "",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/3052.html"
-    },
-    {
-      "symbol": "5209",
-      "name": "5209",
-      "name_en": "",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/5209.html"
-    },
-    {
-      "symbol": "6691",
-      "name": "6691",
-      "name_en": "",
-      "market": "tw",
-      "provisional": false,
-      "url": "stocks/6691.html"
     },
     {
       "symbol": "CSCO",
@@ -187,6 +139,14 @@
       "url": "stocks/00713.TW.html"
     },
     {
+      "symbol": "2347",
+      "name": "2347",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/2347.html"
+    },
+    {
       "symbol": "2607",
       "name": "2607",
       "name_en": "",
@@ -217,6 +177,14 @@
       "market": "tw",
       "provisional": false,
       "url": "stocks/4905.html"
+    },
+    {
+      "symbol": "5209",
+      "name": "5209",
+      "name_en": "",
+      "market": "tw",
+      "provisional": false,
+      "url": "stocks/5209.html"
     },
     {
       "symbol": "5864",
