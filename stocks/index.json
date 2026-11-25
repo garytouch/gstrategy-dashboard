@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-11-24T14:20:12.133490+00:00",
+  "generated_at": "2026-11-25T06:48:29.147538+00:00",
   "stocks": [
     {
       "symbol": "1232",
@@ -121,22 +121,6 @@
       "market": "us",
       "provisional": false,
       "url": "stocks/UNP.html"
-    },
-    {
-      "symbol": "00631L.TW",
-      "name": "00631L.TW",
-      "name_en": "",
-      "market": "etf",
-      "provisional": false,
-      "url": "stocks/00631L.TW.html"
-    },
-    {
-      "symbol": "00713.TW",
-      "name": "00713.TW",
-      "name_en": "",
-      "market": "etf",
-      "provisional": false,
-      "url": "stocks/00713.TW.html"
     },
     {
       "symbol": "2347",
