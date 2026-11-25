@@ -1,6 +1,6 @@
 {
   "schema": "claude-quant.stock-pages-index.v1",
-  "generated_at": "2026-11-25T06:48:29.147538+00:00",
+  "generated_at": "2026-11-25T14:39:52.080018+00:00",
   "stocks": [
     {
       "symbol": "1232",
@@ -121,6 +121,14 @@
       "market": "us",
       "provisional": false,
       "url": "stocks/UNP.html"
+    },
+    {
+      "symbol": "0056.TW",
+      "name": "0056.TW",
+      "name_en": "",
+      "market": "etf",
+      "provisional": false,
+      "url": "stocks/0056.TW.html"
     },
     {
       "symbol": "2347",
